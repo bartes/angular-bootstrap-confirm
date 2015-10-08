@@ -1,3 +1,15 @@
+# 0.5.0 (2015-10-06)
+* BREAKING (for npm users only): Use dist files when installing through npm. You will now need to require the `angular-bootstrap-confirm/src/ui-bootstrap-position` file or the full `angular-ui-bootstrap` module first (See the readme for an example)
+
+# 0.4.2 (2015-10-04)
+* Ignore bower source files
+
+# 0.4.1 (2015-10-02)
+* Allow handle-focus to be set to false if set as an attribute.
+
+# 0.4.0 (2015-09-28)
+* Auto focus the confirm button when opening the popover. Thanks to @andreptb! 
+
 # 0.3.1 (2015-08-29)
 * Make `is-open` optional for angular 1.3 compatibility
 
